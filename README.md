@@ -5,6 +5,12 @@ in Home Assistant — no AirGradient account and no API token required — and s
 dashboard with an animated, AirGradient-map-style card.
 
 <p align="center">
+  <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=keranm&repository=airgradient-public&category=integration">
+    <img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open the AirGradient Public Location repository in HACS on your Home Assistant instance.">
+  </a>
+</p>
+
+<p align="center">
   <img src="images/card-good.png" alt="AirGradient Map Card — Good" width="480">
 </p>
 
@@ -64,11 +70,23 @@ Bundled with the integration and auto-registered — **no separate dashboard res
 
 ### HACS (recommended)
 
+The quickest way — click the button, which opens your Home Assistant with this repository
+pre-filled in HACS:
+
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=keranm&repository=airgradient-public&category=integration)
+
+Then click **Download**, and **restart Home Assistant** (Settings → System → ⋮ → Restart) —
+HACS only downloads the files; Home Assistant loads the new integration on restart.
+
+<details>
+<summary>Or add it manually as a custom repository</summary>
+
 1. In HACS, open the three-dot menu → **Custom repositories**.
 2. Add `https://github.com/keranm/airgradient-public` with category **Integration**.
 3. Find **AirGradient Public Location** in HACS, click **Download**.
-4. **Restart Home Assistant** (Settings → System → ⋮ → Restart). HACS only downloads the
-   files; Home Assistant loads the new integration on restart.
+4. **Restart Home Assistant.**
+
+</details>
 
 ### Manual
 
