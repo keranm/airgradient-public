@@ -1,13 +1,13 @@
 {
   "domain": "airgradient_public",
   "name": "AirGradient Public Location",
-  "codeowners": ["@keran"],
+  "codeowners": ["@keranm"],
   "config_flow": true,
   "dependencies": ["http", "frontend"],
-  "documentation": "https://github.com/keran/airgradient-public",
+  "documentation": "https://github.com/keranm/airgradient-public",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/keran/airgradient-public/issues",
+  "issue_tracker": "https://github.com/keranm/airgradient-public/issues",
   "requirements": [],
   "version": "0.1.0"
 }

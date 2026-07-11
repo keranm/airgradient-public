@@ -655,5 +655,5 @@ window.customCards.push({
   description:
     "Animated air-quality card for a public AirGradient location, with tap-to-expand charts.",
   preview: true,
-  documentationURL: "https://github.com/keran/airgradient-public",
+  documentationURL: "https://github.com/keranm/airgradient-public",
 });
