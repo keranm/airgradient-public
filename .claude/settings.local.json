@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s --max-time 15 \"https://api.airgradient.com/public/api/v1/world/locations/263/measures/current\")",
+      "Bash(curl -s --max-time 15 -o /dev/null -w \"%{http_code}\" \"https://api.airgradient.com/public/api/v1/world/locations/263/measures/current\")"
+    ]
+  }
+}

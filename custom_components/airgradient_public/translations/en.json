@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "AirGradient public location",
+        "description": "Enter the location ID of a public AirGradient monitor. Open the sensor on the [AirGradient map](https://www.airgradient.com/map) and use the `locationId` shown by the API, e.g. 66612.",
+        "data": {
+          "location_id": "Location ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_location": "No public location with this ID was found.",
+      "cannot_connect": "Could not connect to the AirGradient API."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Polling options",
+        "data": {
+          "scan_interval_minutes": "Update interval (minutes)"
+        }
+      }
+    }
+  }
+}
