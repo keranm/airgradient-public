@@ -514,9 +514,7 @@ class AirGradientMapCard extends HTMLElement {
     .hill-front { fill: var(--cat-ground, #66bb6a); opacity: .8; }
     .trunk { fill: #7a5b41; }
     .leaves { fill: var(--cat-ground, #2e7d32); filter: brightness(.72); }
-    .tree { transform-box: fill-box; transform-origin: bottom center; animation: sway 6s ease-in-out infinite; }
-    .tree.t1, .tree.t3 { animation-delay: -3s; }
-    @keyframes sway { 0%,100% { rotate: -1.6deg; } 50% { rotate: 1.6deg; } }
+    .tree { transform-box: fill-box; transform-origin: bottom center; }
     .head { position: relative; display: flex; justify-content: space-between; padding: 14px 16px 0; }
     .name { font-size: 1.05rem; font-weight: 600; color: rgba(0,0,0,.75); }
     .category { font-size: 1.5rem; font-weight: 700; color: rgba(0,0,0,.85); line-height: 1.2; max-width: 70%; }
