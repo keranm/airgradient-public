@@ -65,7 +65,10 @@ class AirGradientPublicConfigFlow(ConfigFlow, domain=DOMAIN):
                 )
 
         return self.async_show_form(
-            step_id="user", data_schema=USER_SCHEMA, errors=errors
+            step_id="user",
+            data_schema=USER_SCHEMA,
+            errors=errors,
+            description_placeholders={"map_url": "https://www.airgradient.com/map"},
         )
 
     @staticmethod

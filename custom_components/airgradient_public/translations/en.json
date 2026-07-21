@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "AirGradient public location",
-        "description": "Enter the location ID of a public AirGradient monitor. Open the sensor on the [AirGradient map](https://www.airgradient.com/map) and use the `locationId` shown by the API, e.g. 66612.",
+        "description": "Enter the location ID of a public AirGradient monitor. Open the sensor on the [AirGradient map]({map_url}) and use the `locationId` shown by the API, e.g. 66612.",
         "data": {
           "location_id": "Location ID"
         }

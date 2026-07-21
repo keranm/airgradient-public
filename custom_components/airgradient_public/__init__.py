@@ -9,12 +9,17 @@ from homeassistant.components.http import StaticPathConfig
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
+import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.typing import ConfigType
 
 from .const import CARD_URL_PATH, DOMAIN
 from .coordinator import AirGradientPublicCoordinator
 
 PLATFORMS = [Platform.SENSOR]
+
+# This integration has no YAML configuration — it is set up from config entries
+# (async_setup only serves the bundled Lovelace card).
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
 
 AirGradientPublicConfigEntry = ConfigEntry[AirGradientPublicCoordinator]
 
